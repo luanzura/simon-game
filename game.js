@@ -29,6 +29,7 @@ $(document).ready(function() {
             level++;
             $("#level-title").text("Nível " + level);
             $("body").css("background-color", "#011F3F");
+            $("#game-over").text("");
         };    
     });
 });
